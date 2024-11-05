@@ -1,6 +1,5 @@
 ## Focusrite MP8R 1.0.0 - for Companion v3
 
-
 **Available commands**
 
 - Microphone Input Gain, Gain Comp, P48, HPF

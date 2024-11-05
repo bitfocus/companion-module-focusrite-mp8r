@@ -61,9 +61,7 @@ class instance extends InstanceBase {
 				label: 'Device Type',
 				width: 12,
 				default: 'MP8R',
-				choices: [
-					{ id: 'MP8R', label: 'MP8R' },
-				],
+				choices: [{ id: 'MP8R', label: 'MP8R' }],
 				isVisible: () => false,
 			},
 			{

@@ -247,7 +247,6 @@ module.exports = {
 		if (cmdName != undefined) {
 			if (cmdAction == 'mtr') {
 				cmdName = cmdName.replace('Current/', 'Current/Meter/')
-				cmdName = cmdName.replace('/Dev/OutputLevel', '/OutCh/OutputLevel')
 				cmdName = cmdName.replace('/Dev/InputLevel', '/InCh/InputLevel')
 			}
 			let cmdToFind = cmdName.replace(/:/g, '_')

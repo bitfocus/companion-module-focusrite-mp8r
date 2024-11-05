@@ -1034,7 +1034,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^9.13.0":
+"eslint@npm:^9.14.0":
   version: 9.14.0
   resolution: "eslint@npm:9.14.0"
   dependencies:
@@ -1281,7 +1281,7 @@ __metadata:
     "@companion-module/base": "npm:~1.11.0"
     "@companion-module/tools": "npm:^2.1.0"
     companion-module-utils: "npm:^0.5.0"
-    eslint: "npm:^9.13.0"
+    eslint: "npm:^9.14.0"
     prettier: "npm:~3.3.3"
   languageName: unknown
   linkType: soft
