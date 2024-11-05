@@ -23,6 +23,9 @@
 		"@companion-module/base": "~1.11.0",
 		"companion-module-utils": "^0.5.0"
 	},
+	"engines": {
+		"node": "^22.11"
+	},
 	"prettier": "@companion-module/tools/.prettierrc.json",
 	"packageManager": "yarn@4.5.1"
 }
