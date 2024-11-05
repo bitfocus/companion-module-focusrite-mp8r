@@ -211,7 +211,6 @@ module.exports = {
 	},
 
 	parseVal: (context, cmd) => {
-		const hpf = require('./hpf')
 		let val = cmd.Val
 		let rcpCmd = module.exports.findRcpCmd(cmd.Address)
 
@@ -253,9 +252,6 @@ module.exports = {
 		} else {
 			if (rcpCmd.Type != 'freq') {
 				val = curVal + val
-			} else {
-				const index = hpf.findIndex((f) => f == curVal)
-				val = hpf[Math.min(Math.max(index + val / rcpCmd.Scale, 0), hpf.length - 1)]
 			}
 		}
 		val = Math.min(Math.max(val, rcpCmd.Min), rcpCmd.Max) // Clamp it

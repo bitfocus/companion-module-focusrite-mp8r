@@ -1,6 +1,6 @@
-// Control module for StageTec Pro Audio XDIP
+// Control module for Focusrite MP8R
 // Andrew Broughton <andy@checkcheckonetwo.com>
-// October 2024 Version 1.0.5 (for Companion v3)
+// November 2024 Version 1.0.0 (for Companion v3)
 
 const { InstanceBase, InstanceStatus, Regex, runEntrypoint, combineRgb, TCPHelper } = require('@companion-module/base')
 
@@ -200,14 +200,6 @@ class instance extends InstanceBase {
 									}
 								}
 								break
-
-							case 'sscurrent_ex':
-							case 'sscurrentt_ex':
-								if (curCmd.Status == 'NOTIFY') {
-									this.pollConsole()
-								}
-								break
-
 							case 'mtr':
 								if (foundCmd === undefined) break
 								if (foundCmd.Pickoff) {
