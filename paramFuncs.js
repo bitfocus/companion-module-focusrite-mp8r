@@ -83,8 +83,6 @@ module.exports = {
 		]
 		const RCP_PARAM_FIELDS = ['Status', 'Action', 'Address', 'X', 'Y', 'Val', 'TxtVal']
 		const RCP_DEVINFO_FIELDS = ['Status', 'Action', 'Address', 'Val']
-		const RCP_SCENE_FIELDS = ['Status', 'Action', 'Address', 'Val', 'ScnStatus']
-		const RCP_SCNINFO_FIELDS = ['Status', 'Action', 'Address', 'Val', 'TxtVal', 'ScnName', 'ScnComment', 'ScnType']
 		const RCP_METER_FIELDS = ['Status', 'Action', 'Address', 'Name']
 		let cmds = []
 		let line = []
@@ -114,21 +112,6 @@ module.exports = {
 					case 'devstatus':
 					case 'scpmode':
 						params = RCP_DEVINFO_FIELDS
-						break
-
-					case 'sscurrent_ex':
-					case 'sscurrentt_ex':
-					case 'ssrecall_ex':
-					case 'ssrecallt_ex':
-					case 'ssupdate_ex':
-					case 'ssupdatet_ex':
-					case 'event':
-						params = RCP_SCENE_FIELDS
-						break
-
-					case 'ssinfo_ex':
-					case 'ssinfot_ex':
-						params = RCP_SCNINFO_FIELDS
 						break
 
 					case 'mtr':
