@@ -1,0 +1,36 @@
+{
+	"id": "focusrite-mp8r",
+	"name": "focusrite-mp8r",
+	"shortname": "MP8R",
+	"description": "Focusrite MP8R",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-focusrite-mp8r.git",
+	"bugs": "https://discourse.checkcheckonetwo.com",
+	"maintainers": [
+		{
+			"name": "Andrew Broughton",
+			"email": "andy@checkcheckonetwo.com"
+		},
+		{
+			"name": "Phillip Ivan Pietruschka",
+			"email": "ivanpietruschka@gmail.com"
+		}
+	],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../index.js"
+	},
+	"manufacturer": "StageTec",
+	"products": ["MP8R"],
+	"keywords": ["Dante", "Yamaha", "Focusrite", "Rednet"],
+	"bonjourQueries": {
+		"bonjour_host": {
+			"type": "ypa-scp",
+			"protocol": "tcp"
+		}
+	}
+}
