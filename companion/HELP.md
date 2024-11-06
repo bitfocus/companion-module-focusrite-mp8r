@@ -25,5 +25,3 @@ Note that this module only works to connected hardware. This module allows contr
 > Select "Auto-Create Variable" to create a variable in the form **CommandName_Ch#**
 
 > Use **@(internal:custom_MyCustomVar)** in the value field to update a custom variable within a feedback. Custom variable must already exist
-
-
