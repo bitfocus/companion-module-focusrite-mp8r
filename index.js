@@ -178,7 +178,7 @@ class instance extends InstanceBase {
 					if (line.length == 0) {
 						continue
 					}
-					this.log('debug', `[${new Date().toJSON()}] Received: '${line}'`)
+					//this.log('debug', `[${new Date().toJSON()}] Received: '${line}'`)
 					receivedCmds = paramFuncs.parseData(line) // Break out the parameters
 
 					for (let i = 0; i < receivedCmds.length; i++) {
@@ -188,6 +188,7 @@ class instance extends InstanceBase {
 						switch (curCmd.Action) {
 							case 'set':
 							case 'get':
+								this.log('debug', `[${new Date().toJSON()}] Received: '${line}'`)
 								if (foundCmd != undefined) {
 									if (!(curCmd.Status == 'OK' && curCmd.Action == 'set')) {
 										this.addToDataStore(curCmd)
@@ -318,7 +319,7 @@ class instance extends InstanceBase {
 						},
 					},
 					{
-						feedbackId: 'MIXER_Current/Meter/Mix/PostOn',
+						feedbackId: 'IO_Current/Meter/InCh/InputLevel',
 						options: {
 							//							position: 'right',
 							//							padding: 1,
