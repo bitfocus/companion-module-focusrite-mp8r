@@ -24,7 +24,7 @@
 		"apiVersion": "0.0.0",
 		"entrypoint": "../index.js"
 	},
-	"manufacturer": "StageTec",
+	"manufacturer": "Focusrite",
 	"products": ["MP8R"],
 	"keywords": ["Dante", "Yamaha", "Focusrite", "Rednet"],
 	"bonjourQueries": {
