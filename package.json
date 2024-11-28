@@ -16,16 +16,16 @@
 	"license": "MIT",
 	"devDependencies": {
 		"@companion-module/tools": "^2.1.0",
-		"eslint": "^9.14.0",
-		"prettier": "~3.3.3"
+		"eslint": "^9.15.0",
+		"prettier": "~3.4.1"
 	},
 	"dependencies": {
-		"@companion-module/base": "~1.11.0",
+		"@companion-module/base": "~1.11.2",
 		"companion-module-utils": "^0.5.0"
 	},
 	"engines": {
 		"node": "^22.11"
 	},
 	"prettier": "@companion-module/tools/.prettierrc.json",
-	"packageManager": "yarn@4.5.1"
+	"packageManager": "yarn@4.5.3"
 }
