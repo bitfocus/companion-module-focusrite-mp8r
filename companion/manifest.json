@@ -6,7 +6,7 @@
 	"version": "0.0.0",
 	"license": "MIT",
 	"repository": "git+https://github.com/bitfocus/companion-module-focusrite-mp8r.git",
-	"bugs": "https://discourse.checkcheckonetwo.com",
+	"bugs": "https://github.com/bitfocus/companion-module-focusrite-mp8r/issues",
 	"maintainers": [
 		{
 			"name": "Andrew Broughton",

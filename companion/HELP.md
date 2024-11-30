@@ -2,13 +2,13 @@
 
 Please visit https://discourse.checkcheckonetwo.com for help, discussions, suggestions, etc.
 
-_Andrew Broughton, Nov 2024_
+_Andrew Broughton & Phillip Pietruschka, Nov 2024_
 
 ---
 
 **Instructions**
 
-Note that this module only works to connected hardware. This module allows control of MP8R microphone inputs (Gain, Gain Comp, P48, HPF).
+Note that this module only works to connected hardware. This module allows control of MP8R microphone inputs (Gain, Gain Comp, P48, HPF). This module may also work with the RedNet 4, if you have one to test with please let us know.
 
 **MACROS** ("Learn" Function)
 
