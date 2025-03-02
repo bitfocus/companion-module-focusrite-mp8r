@@ -1,4 +1,4 @@
-## Focusrite MP8R 1.0.0 - for Companion v3
+## Focusrite MP8R 1.0.1 - for Companion v3
 
 **Available commands**
 
@@ -15,3 +15,8 @@ _Andrew Broughton & Phillip Ivan Pietruschka_
 1.0.0
 
 - Initial Build
+
+1.0.1
+
+- Declare support for local variables
+- Update dependencies

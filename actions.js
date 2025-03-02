@@ -23,7 +23,7 @@ module.exports = {
 				id: 'X',
 				default: 1,
 				required: true,
-				useVariables: true,
+				useVariables: { local: true },
 			}
 			if (mp8rChoices[actionName] !== undefined) {
 				XOpts = {
@@ -59,7 +59,7 @@ module.exports = {
 				id: 'Y',
 				default: 1,
 				required: true,
-				useVariables: true,
+				useVariables: { local: true },
 				allowCustom: true,
 			}
 			if (rcpCmd.Type == 'mtr') {
@@ -89,7 +89,6 @@ module.exports = {
 			required: true,
 			minChoicesForSearch: 0,
 			allowCustom: true,
-			useVariables: true,
 		}
 		switch (rcpCmd.Type) {
 			case 'bool':
