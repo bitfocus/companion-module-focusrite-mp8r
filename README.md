@@ -20,3 +20,7 @@ _Andrew Broughton & Phillip Ivan Pietruschka_
 
 - Declare support for local variables
 - Update dependencies
+
+1.0.2
+
+- Minor fix for value options

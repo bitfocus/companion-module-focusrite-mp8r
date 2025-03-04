@@ -89,6 +89,7 @@ module.exports = {
 			required: true,
 			minChoicesForSearch: 0,
 			allowCustom: true,
+			useVariables: { local: true },
 		}
 		switch (rcpCmd.Type) {
 			case 'bool':
